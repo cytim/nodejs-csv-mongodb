@@ -1,0 +1,32 @@
+{
+  "name": "csv-mongodb",
+  "version": "1.0.0",
+  "description": "Import CSV into MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix \"**/*.js\"",
+    "test": "mocha"
+  },
+  "keywords": [
+    "csv",
+    "mongodb"
+  ],
+  "author": "Tim Wong",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cytim/nodejs-csv-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cytim/nodejs-csv-mongodb/issues"
+  },
+  "homepage": "https://github.com/cytim/nodejs-csv-mongodb#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.0.1",
+    "prettier": "^2.0.5"
+  }
+}
