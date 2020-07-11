@@ -5,5 +5,9 @@
     "es2020": true,
     "mocha": true
   },
+  "globals": {
+    "log": true,
+    "VError": true
+  },
   "extends": ["eslint:recommended", "plugin:prettier/recommended"]
 }
